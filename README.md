@@ -1,6 +1,16 @@
 # Swagger-oneOf-validator
 
-Becasue we dont have oneOf support in swagger 2 and swagger-tools, we created custom validator to be able to validate oneOf and nested definitions.
+"oneOf" verifies specific schema types (Message Type). This is a custom validator to accept custom "message_type" validation. (see example below)  
+
+```
+# swagger2 does not accept this
+oneOf:
+  - $ref: '#/components/schemas/Cat'
+  - $ref: '#/components/schemas/Dog'
+```
+
+** oneOf is currently only support in swagger3, swagger3 is missing code generator
+** https://swagger.io/docs/specification/data-models/oneof-anyof-allof-not/
 
 ### Installation:
 Using npm:
