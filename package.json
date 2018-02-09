@@ -1,9 +1,13 @@
 {
   "name": "swagger-oneof-validator",
-  "version": "1.0.0",
-  "description": "swagger 2 oneof validation",
-  "keywords": ["swagger", "swagger 2", "swagger 2.0", "swagger oneof", "swagger polymorphism", "swagger nested"],
+  "version": "1.0.1",
+  "description": "custom swagger validator",
+  "keywords": ["custom swagger validator"],
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AgentIQ/swagger-oneof-validator.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
