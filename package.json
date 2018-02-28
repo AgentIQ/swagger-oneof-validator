@@ -2,7 +2,14 @@
   "name": "swagger-oneof-validator",
   "version": "1.0.0",
   "description": "swagger 2 oneof validation",
-  "keywords": ["swagger", "swagger 2", "swagger 2.0", "swagger oneof", "swagger polymorphism", "swagger nested"],
+  "keywords": [
+    "swagger",
+    "swagger 2",
+    "swagger 2.0",
+    "swagger oneof",
+    "swagger polymorphism",
+    "swagger nested"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +17,8 @@
   "author": "Aykut Gedik",
   "license": "ISC",
   "dependencies": {
-    "sway": "^1.0.0",
-    "deasync": "^0.1.12"
+    "deasync": "^0.1.12",
+    "minimist": "^1.2.0",
+    "sway": "github:apigee-127/sway#master"
   }
 }
