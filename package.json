@@ -1,6 +1,6 @@
 {
   "name": "swagger-oneof-validator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "custom swagger validator",
   "keywords": ["custom swagger validator"],
   "main": "index.js",
@@ -14,7 +14,7 @@
   "author": "Aykut Gedik",
   "license": "ISC",
   "dependencies": {
-    "sway": "^1.0.0",
+    "sway": "^2.0.0",
     "deasync": "^0.1.12"
   }
 }
